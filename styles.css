@@ -1,0 +1,31 @@
+body {
+    color: white;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 50px;
+}
+
+nav h1 {
+  margin: 0 auto;
+}
+
+a.button {
+    display: inline-block;
+    text-decoration: none;
+    min-height: 35px;
+    line-height: 35px;
+    color: #73B6CB;
+    border-radius: 3px;
+    padding: 10px 40px;
+    background-color: #EAF1F7;
+    border: none;
+    cursor: pointer;
+}
+
+#content {
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+}

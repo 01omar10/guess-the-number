@@ -1,0 +1,18 @@
+<div>
+    <input type="text" [(ngModel)]="currentTry.tryStr">
+    <button type="button" (click)='checkNro()'>Check</button>
+
+    <p>
+        Aciertos: {{currentTry.asserts}}
+    </p>
+    <p>
+        Posiciones: {{currentTry.positions}}
+    </p>
+    <table *ngIf="tries.length > 0">
+        <tr *ngFor="let try of tries">
+            <td> {{try.tryStr}} </td>
+            <td> {{try.asserts}} </td>
+            <td> {{try.positions}} </td>
+        </tr>
+    </table>
+</div>
